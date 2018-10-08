@@ -1,0 +1,54 @@
+/*タブレット*/
+@media (max-width:1000px) {
+
+#page {
+	width:auto;
+}
+
+.mainVisual img {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+
+.mainVisual .mainVisualText {
+	position:absolute;
+	left:30px;
+	bottom:30px;
+	color:#FFF;
+	background-color: rgba(0,0,0,0.4);
+	width:400px;
+	padding:9px 15px;
+	-moz-box-sizing:border-box;
+}
+
+}
+
+/*モバイル*/
+
+@media(max-width: 670px) {
+
+#page {
+	width:auto;
+}
+
+.mainVisual img {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+
+.mainVisual .mainVisualText {
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	color:#FFF;
+	background-color: rgba(0,0,0,0.4);
+	width:400px;
+	padding:3px 5px;
+	-moz-box-sizing:border-box;
+}
+
+
+
+}
